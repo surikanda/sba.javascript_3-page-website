@@ -1,5 +1,8 @@
 # AD - SBA - HTML/CSS/JavaScript * My 3 Page Website *
 
+###### Link to my github website:
+  * https://surikanda.github.io/sba.javascript_3-page-website/index.html
+  
 ## Description:
   #### A multi-page website with follwing features:
   ###### Home Page
@@ -59,8 +62,7 @@
     * Used **external script**, **internal script**.
     * Used *functions, callback functions, events, event handlers, arrays, for loops, if else statements, variables and so on.            
     
-###### Link to my github website:
-  * https://surikanda.github.io/sba.javascript_3-page-website/index.html
+
 
 
 
