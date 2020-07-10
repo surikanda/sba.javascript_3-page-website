@@ -1,9 +1,110 @@
-body {
-    background-color: navy;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat,wght@0,100;0,400;0,700;1,300;1,500&family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    
+}
+.navbar-nav a:hover {
+    background-color: #40bad5 !important;
+    padding: 15px 27px;
+    border-radius: 3px;
+    color:#ffffff !important;
+
+}
+.menu-group {
+    padding-left: 800px;
+}
+ul li {
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 2px;
+}
+li{
+    padding: 2px;
 }
 
-
-object {
+/* object {
     height: 100vh;
     width: 100vh;
+} */
+.bg-1{
+    background-color: #3798b6;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bg-2 {
+    background-color: #6c7b95;
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+}
+.bg1-images {
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    box-shadow: 10px 6px 6px #555555;
+    
+}
+.bmi, .bmi-table{
+    background-color: #3798b6;
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    border: 5px solid white;
+}
+.contact a{
+    font-size: 1.5em;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container-fluid .bg-3{
+    text-align: center;
+}
+#footer {
+    text-align: center;
+}
+table, .bmi{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    border: 5px solid white;
+    background-color: #3798b6;
+    border-radius: 5%;
+    
+}
+th, td {
+    border: 2px solid wheat;
+}
+tr, th{
+    font-size: larger;
+    text-align: center;
+}
+#bmiResult{
+    font-size: x-large;
+    animation: blink 3s infinite;
+    color: red
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;;
+    }
 }
