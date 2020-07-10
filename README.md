@@ -43,21 +43,21 @@
 
   
   ## Technical Specifications:
-    ###### Technology used:
-      * HTML5
-          * Used various HTML tags including
-            * *nav, div, table, ul, li, p, h1, h3, img, a etc.,.* 
-          * Implemented *form* to get user inputs of height and weight to calculate BMI.
-          * Used **images** and **sound files**. 
-      * CSS
-          * Used *Bootstrap* for nav bar, layout of the pages and making the webpage responsive.
-          * Used various css and bootstrap classes
-          * Used **External, Internal and Inline Styling**.
-          * Used **animation** for *BMI Result*.
+  ###### Technology used:
+    * HTML5
+        * Used various HTML tags including
+          * *nav, div, table, ul, li, p, h1, h3, img, a etc.,.* 
+        * Implemented *form* to get user inputs of height and weight to calculate BMI.
+        * Used **images** and **sound files**. 
+    * CSS
+        * Used *Bootstrap* for nav bar, layout of the pages and making the webpage responsive.
+        * Used various css and bootstrap classes
+        * Used **External, Internal and Inline Styling**.
+        * Used **animation** for *BMI Result*.
 
-      * JavaScript
-          * Used **external script**, **internal script**.
-          * Used *functions, callback functions, events, event handlers, arrays, for loops, if else statements, variables and so on.
+    * JavaScript
+        * Used **external script**, **internal script**.
+        * Used *functions, callback functions, events, event handlers, arrays, for loops, if else statements, variables and so on.
             
 
 
