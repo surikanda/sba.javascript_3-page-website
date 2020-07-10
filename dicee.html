@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      padding-top: 18px;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 15px 27px;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
+  </head>
+  <body id="dice-body">
+
+    <!-- Navbar section begins -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand navbar-nav" href="index.html">HOME</a>
+    </div>
+  
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+             <li>
+                 <a href="dicee.html">ROLL THE DICE</a>
+             </li>
+             <li>
+               <a href="drumkit.html">DRUM KIT</a>
+             </li>
+              <li>
+                <a href="skills.html">SKILLS</a>
+              </li>
+              <li>
+                <a href="education.html">EDUCATION</a>
+              </li>
+              <li>
+                <a href="experience.html">EXPERIENCE</a>
+              </li>
+          <!-- Tried to implement a dropdown menu, works fine on larger screen but not responsive on small screens. So instead kept the origingal menu buttons which change to dropdown 
+          automatically on small screens -->
+              <!-- <div class="dropdown">
+              <ul class="nav navbar-nav">
+                  <span>ABOUT ME</span> 
+                  <div class="dropdown-content">
+                      <li>
+                        <a href="skills.html">SKILLS</a>
+                      </li>
+                      <li>
+                        <a href="education.html">EDUCATION</a>
+                      </li>
+                      <li>
+                        <a href="experience.html">EXPERIENCE</a>
+                      </li>
+                  </div>
+              </ul>
+              
+            </div> -->
+            
+      </ul>
+  </div>
+  </div>
+  </div>
+</nav>
+
+<!-- Navbar section ends -->
+    <div class="container">
+      <h1>Roll The Dice</h1>
+
+      <div class="dice">
+        <p class="dice-p">Player 1</p>
+        <img class="img1" src="">
+      </div>
+
+      <div class="dice">
+        <p class="dice-p">Player 2</p>
+        <img class="img2" src="">
+      </div>
+      <br>
+      <br>
+      <div>
+        <button class="btn btn-secondary btn-lg" type="submit" onclick="rollDice()">Roll Dice</button>
+      </div>
+  
+    </div>
+
+<script src="./js/dicee.js" charset="utf-8"></script>
+  </body>
+
+  <footer id="dice-footer">
+    <p id="copyright"></p>
+    <div class="contact">
+        <a href="https://linkedin.com/in/suresh-kandagatla-8b382a39" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/surikanda" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <script >
+      let year = new Date().getFullYear();
+       document.getElementById("copyright").innerHTML = "Created by Suresh | Copyright " + year;
+     </script>
+  </footer>
+</html>
+
+<!-- Souce: London App Brewery as part of my previous bootcamp -->
+<!-- Bootstrap -->
+<!-- W3 Schools -->
