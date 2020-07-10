@@ -57,8 +57,10 @@
 
   * JavaScript
     * Used **external script**, **internal script**.
-    * Used *functions, callback functions, events, event handlers, arrays, for loops, if else statements, variables and so on.
-            
+    * Used *functions, callback functions, events, event handlers, arrays, for loops, if else statements, variables and so on.            
+    
+###### Link to my github website:
+  * https://surikanda.github.io/sba.javascript_3-page-website/index.html
 
 
 
