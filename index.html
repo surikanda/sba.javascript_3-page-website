@@ -22,11 +22,11 @@
   <style>
     .container-fluid {
     width: 100%;
-    display: flex;
+    display: inline-block;
     padding-top: 70px;
     padding-bottom: 70px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .flexible {
     padding-top: 10px;
@@ -109,12 +109,15 @@
 
 <!-- Bg-2 section starts -->
 <div class="container-fluid bg-2 text-center">
-  <h3> Use the BMI calculator to know your BMI</h3>
+  <h3 style="padding-bottom: 20px;"> Use the BMI calculator to know your BMI</h3>
   <div class="row">
-    <h3>What is BMI ?</h3>
-    <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+    <div class="col-sm-4">
+      <h3>What is BMI ?</h3>
+      <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+    </div>
+    
     <!-- *****BMI Table bigins****** -->
-    <div class="flexible col-sm-6">
+    <div class="flexible col-sm-4">
       <table class="bmi-table">
         <tr height="10%">
           <th>BMI</th>
@@ -140,7 +143,7 @@
     </div>
     <!-- *****BMI Table ends ****** -->
     <!-- ******************BMI Calculator section begins***************** -->
-    <div class="flexible col-sm-6">
+    <div class="flexible col-sm-4">
           <div class="bmi">
           <form action=""></form>
           <label for="height">Enter your height</label>
